@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="assets/chevron.png" type="image/x-icon" />
+    <title>J Lok's Portfolio</title>
+  </head>
+  <body>
+    <nav class="container-fluid nav">
+      <div class="container cf">
+        <div class="brand">
+          <a href="#splash">
+            <img src="assets/jlok.png" alt="J Lok" width="72" />
+          </a>
+        </div>
+        <i class="fa fa-bars nav-toggle"></i>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills &amp; Experience</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#tech-stack">Tech Stack</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Overview -->
+    <div class="container-fluid splash" id="splash">
+      <div class="container">
+        <h1>Yap Joon Lok</h1>
+        <span class="lead">Software Programmer</span>
+        <span class="continue"
+          ><a href="#about"><i class="fa fa-angle-down"></i></a
+        ></span>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="container-fluid intro" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <br />
+        <img src="assets/jlok.jpg" alt="Yap Joon Lok" class="profile-image" />
+        <br />
+        <p>
+          Greetings! Welcome to my portfolio website. I'm thrilled to introduce
+          myself as Yap Joon Lok, a passionate Computer Science graduate hailing
+          from the beautiful city of Ipoh, Malaysia.
+        </p>
+        <p>
+          My area of expertise lies in the exciting realms of Mobile App
+          development, where I specialize in leveraging Dart and Flutter to
+          craft exceptional user experiences. Additionally, I possess a strong
+          command over Web development, employing a wide array of technologies
+          such as PHP, HTML, CSS, JavaScript, and React to bring captivating web
+          applications to life.
+        </p>
+        <p>
+          But that's not all—I'm well-versed in other programming languages too,
+          including Python, Java, and C++/C, enabling me to tackle diverse
+          challenges with ease. When it comes to data management, I excel in
+          working with data using MySQL, Firebase, and SQLlite, ensuring
+          seamless handling and storage of vital information. I have experience
+          in data warehousing, big data analytics, OLTP, and OLAP too.
+        </p>
+        <p>
+          My solid grasp of software engineering principles, encompassing UML,
+          OOP, Agile, SAD, and SDLC, empowers me to design and implement
+          efficient, scalable solutions that align with industry best practices.
+          By utilizing Git for version control, I foster seamless collaboration
+          and efficient project management, ensuring a smooth workflow for every
+          endeavor.
+        </p>
+        <p>
+          One aspect that sets me apart is my keen eye for UI/UX design. I
+          believe that a well-crafted user interface is crucial to enhancing the
+          overall experience, and I strive to incorporate aesthetic appeal into
+          every project I undertake.
+        </p>
+        <p>
+          Driven by a deep-rooted commitment to excellence, I am confident in my
+          ability to make a positive impact on any project, team, or company. I
+          am ready to embrace new challenges, contribute my comprehensive
+          skillset, and work tirelessly to achieve outstanding results.
+        </p>
+      </div>
+    </div>
+
+    <!-- Skills & Experience -->
+    <div class="container-fluid features" id="skills">
+      <div class="container cf">
+        <h2>Skills &amp; Experience</h2>
+
+        <!-- Areas of Interests -->
+        <div class="col-3">
+          <img class="se-img" src="assets/phone.png" alt="Mobile Phone" />
+          <h3>Mobile Development</h3>
+          <p class="se-p se-p-1">
+            I have extensive experience in mobile app development, specializing
+            in Flutter. Throughout my academic journey and personal projects, I
+            have honed my skills and gained valuable hands-on experience in
+            creating innovative and user-friendly mobile applications. I have
+            successfully developed and deployed various mobile apps,
+            demonstrating my ability to translate ideas into fully functional
+            and visually appealing applications. By utilizing Flutter framework,
+            I have been able to build cross-platform apps that are compatible
+            with both iOS and Android devices, ensuring maximum reach and
+            usability.
+          </p>
+        </div>
+        <div class="col-3">
+          <img class="se-img" src="assets/web.png" alt="Web" />
+          <h3>Web Development</h3>
+          <p class="se-p se-p-2">
+            My journey in web development began right after high school when I
+            enthusiastically started learning HTML and CSS. I quickly grasped
+            the fundamentals of building web pages and creating visually
+            appealing layouts. During my university years, I had the opportunity
+            to further consolidate and expand my web development skills. I
+            delved deeper into HTML and CSS, mastering advanced techniques and
+            best practices. Additionally, I gained proficiency in JavaScript,
+            enabling me to add interactivity and dynamic functionality to
+            websites. I also picked up PHP, worked with databases like MySQL,
+            Firebase, etc. and utilised various Web APIs. Recently, I have taken
+            my web development skills to the next level by picking up the React
+            framework.
+          </p>
+        </div>
+        <div class="col-3">
+          <img class="se-img" src="assets/uiux.png" alt="UI/UX" />
+          <h3>UI/UX</h3>
+          <p class="se-p se-p-3">
+            I possess a solid background in UI/UX design, which greatly enhances
+            my ability to create user-centric and visually appealing
+            experiences. One of my primary tools for brainstorming and designing
+            user interfaces is Figma. With Figma, I can efficiently create
+            wireframes, prototypes, and high-fidelity designs, enabling me to
+            iterate and refine my ideas throughout the design process. By
+            utilizing Figma's collaborative features, I can effectively
+            communicate and collaborate with stakeholders, ensuring that the
+            final design meets their expectations.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="container-fluid portfolio" id="portfolio">
+      <h2>Portfolio</h2>
+
+      <br />
+      <h3>Total Projects: <span id="total-project"></span></h3>
+      <br />
+
+      <marquee
+        id="project-gallery"
+        behavior="scroll"
+        direction="alternate"
+        scrollamount="10"
+      >
+      </marquee>
+
+      <!-- Learn More -->
+      <div id="learn-more" onclick="window.location = 'projects/index.html'">
+        <button class="learn-more">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">Discover 👀</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Tech Stack -->
+    <div class="container-fluid tech-stack" id="tech-stack">
+      <div class="container">
+        <h2>Tech Stack</h2>
+        <div id="tech-stack-container"></div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container-fluid contact" id="contact">
+      <div class="container">
+        <form>
+          <h2>Contact Me</h2>
+          <input
+            type="text"
+            placeholder="Name"
+            id="name"
+            name="name"
+            class="full-half"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            id="email"
+            name="email"
+            class="full-half"
+          />
+          <input
+            type="text"
+            placeholder="Subject"
+            id="subject"
+            name="subject"
+          />
+          <textarea
+            placeholder="Message"
+            id="message"
+            name="message"
+          ></textarea>
+          <input type="submit" value="Send" id="submit-btn" />
+        </form>
+      </div>
+    </div>
+
+    <footer class="container-fluid footer">
+      <div class="container">
+        <a
+          href="https://www.linkedin.com/in/yap-joon-lok-00a9a6202/"
+          target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://twitter.com/lok2042" target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="https://github.com/lok2042" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a href="https://www.youtube.com/@joonlokyap8392" target="_blank"
+          ><i class="fa fa-youtube"></i
+        ></a>
+        <a href="https://www.reddit.com/user/lokkabye" target="_blank"
+          ><i class="fa fa-reddit"></i
+        ></a>
+        <a
+          href="https://steamcommunity.com/profiles/76561199261756120/"
+          target="_blank"
+          ><i class="fa fa-steam"></i
+        ></a>
+        <a href="https://www.pinterest.com/jlok8x8/" target="_blank"
+          ><i class="fa fa-pinterest"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
